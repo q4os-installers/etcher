@@ -1,1 +1,1 @@
-deb [ trusted=yes ] https://deb.etcher.io stable etcher
+deb [ trusted=yes ] https://dl.cloudsmith.io/public/balena/etcher/deb/debian buster main
