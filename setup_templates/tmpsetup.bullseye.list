@@ -1,0 +1,1 @@
+deb [ trusted=yes ] https://dl.cloudsmith.io/public/balena/etcher/deb/debian bullseye main
