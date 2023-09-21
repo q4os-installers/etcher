@@ -1,1 +1,1 @@
-deb [ trusted=yes ] https://dl.cloudsmith.io/public/balena/etcher/deb/debian bullseye main
+deb [signed-by=/usr/share/keyrings/q4a-etcher.gpg trusted=yes] https://dl.cloudsmith.io/public/balena/etcher/deb/debian bullseye main
