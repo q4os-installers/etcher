@@ -1,0 +1,35 @@
+#***q4os*setup*config*header*do*not*delete*it***#
+
+# TEMPLATES_DIR_0="$TEMPLATESDIR0"
+TEMPLATES_DIR="qinstaller_templates"
+
+PK_NAME="q4os-etcher"
+APPNAME_DESC="Balena Etcher"
+
+#-.qsi entries
+# INST_DEBS="q4os-etcher"
+PK_VERS="3.3-a1"
+Q4VER_MIN="5.0"
+Q4VER_MAX="5.9999"
+# DSTR_BASE="debian"
+# DSTR_EDTN="trixie;bookworm"
+# QS_ARCHES="all"
+# LANGUAGE_PACKAGE="q4os-etcher-l10n--xxlangcodexx-"
+# CHK_INET="1"
+# SETUP_TYPE="2"
+INCLUDE_DHDEB="1"
+CREATE_ESH="0"
+TMP_REPO="deb [signed-by=/usr/share/keyrings/q4a-etcher.gpg trusted=yes] https://dl.cloudsmith.io/public/balena/etcher/deb/debian bookworm main"
+# OUT_DIR="."
+
+#-.deb entries
+APPLNK_ENTRY="0"
+# MENU_ENTRY="0"
+# DESKTOP_ENTRY="0"
+# KEYRING_ENTRY="0"
+# REG_ENTRY="0"
+# UNINSTALL_ENTRY="0"
+APP_ICON="balena-etcher-electron"
+APP_LINK="/opt/balenaEtcher/balena-etcher-electron"
+APP_REPO="deb [signed-by=/usr/share/keyrings/q4a-etcher.gpg] https://dl.cloudsmith.io/public/balena/etcher/deb/debian bookworm main"
+UNINST_ADPCKS="balena-etcher-electron"

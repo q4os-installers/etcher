@@ -1,0 +1,17 @@
+Source: q4os-etcher
+Section: none
+Priority: optional
+Maintainer: Q4OS Team <devteam@q4os.org>
+Build-Depends: debhelper (>= 9~), q4os-devpack-base
+Standards-Version: 3.8.4
+
+Package: q4os-etcher
+Architecture: all
+Pre-Depends: balena-etcher-electron
+Depends: q4os-desktop (>= 5.0), q4os-desktop (<< 6.0), libatk-bridge2.0-0, libgtk-3-0
+Recommends:
+Conflicts:
+Provides:
+Replaces:
+Breaks:
+Description: Balena Etcher metapackage
