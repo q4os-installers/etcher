@@ -3,18 +3,18 @@
 # TEMPLATES_DIR_0="$TEMPLATESDIR0"
 TEMPLATES_DIR="qinstaller_templates"
 
-PK_NAME="q4os-etcher"
+PK_NAME="etcher-extq"
 APPNAME_DESC="Balena Etcher"
 
 #-.qsi entries
-# INST_DEBS="q4os-etcher"
-PK_VERS="3.3-a1"
+# INST_DEBS="etcher-extq"
+PK_VERS="1.1-a1"
 Q4VER_MIN="5.0"
 Q4VER_MAX="5.9999"
 # DSTR_BASE="debian"
 # DSTR_EDTN="trixie;bookworm"
 # QS_ARCHES="all"
-# LANGUAGE_PACKAGE="q4os-etcher-l10n--xxlangcodexx-"
+# LANGUAGE_PACKAGE="etcher-extq-l10n--xxlangcodexx-"
 # CHK_INET="1"
 # SETUP_TYPE="2"
 INCLUDE_DHDEB="1"
