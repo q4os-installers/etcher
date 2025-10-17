@@ -8,7 +8,7 @@ Standards-Version: 3.8.4
 Package: etcher-extq
 Architecture: all
 Pre-Depends: balena-etcher-electron
-Depends: q4os-desktop (>= 5.0), q4os-desktop (<< 6.0), libatk-bridge2.0-0, libgtk-3-0
+Depends: q4os-desktop (>= 5.0), q4os-desktop (<< 7.0), libatk-bridge2.0-0, libgtk-3-0
 Recommends:
 Conflicts: q4os-etcher
 Provides:
